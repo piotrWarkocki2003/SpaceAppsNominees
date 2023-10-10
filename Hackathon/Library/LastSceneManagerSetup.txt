@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes 1/Pitor_Scene 1.unity
+- path: Assets/Scenes 1/Level 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
