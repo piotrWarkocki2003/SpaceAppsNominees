@@ -117,6 +117,7 @@
 -define:CINEMACHINE_PHYSICS_2D
 -define:CINEMACHINE_PHYSICS
 -define:CINEMACHINE_UGUI
+-define:CINEMACHINE_LWRP_7_3_1
 -define:CINEMACHINE_TIMELINE_1_5_0
 -define:CINEMACHINE_UNITY_ANIMATION
 -define:CINEMACHINE_UNITY_IMGUI
@@ -334,18 +335,26 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
--r:"D:/Work/GitHub/SorinsHackathon/Hackathon/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"D:/Work/GitHub/SpaceAppsNominees/Hackathon/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.RenderPipelines.Universal.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.RenderPipelines.Universal.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Timeline.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.TestRunner.ref.dll"
