@@ -1,0 +1,1034 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/User/Desktop/TextTest
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51981
+Successfully changed project path to: C:/Users/User/Desktop/TextTest
+C:/Users/User/Desktop/TextTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5748] Host "[IP] 169.254.61.116 [Port] 0 [Flags] 2 [Guid] 1764038815 [EditorId] 1764038815 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5748] Host "[IP] 169.254.61.116 [Port] 0 [Flags] 2 [Guid] 1764038815 [EditorId] 1764038815 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 73.15 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.90 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/TextTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Super (ID=0x1ed3)
+    Vendor:   NVIDIA
+    VRAM:     8010 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008913 seconds.
+- Loaded All Assemblies, in  0.392 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 669ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (219ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.873 seconds
+Refreshing native plugins compatible for Editor in 18.16 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <787acc3c9a4c471ba7d971300105af24>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <2e279d988b9d4542841de511fbfdf8c2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.827 seconds
+Domain Reload Profiling: 1693ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (607ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (827ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (629ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 16.95 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6316 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 106 unused Assets / (366.0 KB). Loaded Objects now: 6801.
+Memory consumption went from 226.0 MB to 225.7 MB.
+Total: 5.825000 ms (FindLiveObjects: 0.545200 ms CreateObjectMapping: 0.615600 ms MarkObjects: 4.374000 ms  DeleteObjects: 0.289000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 645.632996 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat
+  artifactKey: Guid(0d0f1f087865a1c47826008280428fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat using Guid(0d0f1f087865a1c47826008280428fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5e57d30de1c1b6c50179bdbc420a85') in 0.344304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat
+  artifactKey: Guid(71c78677fdc08394da7fd716fb41a991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat using Guid(71c78677fdc08394da7fd716fb41a991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9aa4e25e0b88d251a4060faa120173') in 0.008035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat
+  artifactKey: Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat using Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc554366ebb755ea5db59a93c8bcf5e9') in 0.010762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/white emision.mat
+  artifactKey: Guid(6b6dfd77776c54a4781ec8cab4d87860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/white emision.mat using Guid(6b6dfd77776c54a4781ec8cab4d87860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a516316694f7ae12027e0343fd55965b') in 0.007802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/screen.mat
+  artifactKey: Guid(bf1464b84bb76b44abb088d5a41acfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/screen.mat using Guid(bf1464b84bb76b44abb088d5a41acfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b07075e7ff3d7c9f66d3ea3102724d2') in 0.009246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/hologram.mat
+  artifactKey: Guid(e305453a48fa58446882f6671dfa0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/hologram.mat using Guid(e305453a48fa58446882f6671dfa0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e4866c321378b7afde0dc9a81b6059') in 0.053450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat
+  artifactKey: Guid(00fc27719fc29924b9a34aab914dc83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat using Guid(00fc27719fc29924b9a34aab914dc83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de7d1fbf82e92b59b75aade2edc9562') in 0.012429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/lattice floor.mat
+  artifactKey: Guid(62dcf96e239eb0d4db44cbe622abf152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/lattice floor.mat using Guid(62dcf96e239eb0d4db44cbe622abf152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d8fc992f76d5c3c1e3d665fa99f93a') in 0.009102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.081352 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/coffee color.mat
+  artifactKey: Guid(0dc773308a90b4d46b08202cbde5b80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/coffee color.mat using Guid(0dc773308a90b4d46b08202cbde5b80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52ea8522c58f49a4e0e62875fdeedd2') in 0.030379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/iron man color.mat
+  artifactKey: Guid(66fe1a0e0becc6f4bbc49896f2111756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/iron man color.mat using Guid(66fe1a0e0becc6f4bbc49896f2111756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aec135cf8f58b0c62863767b8b5efb8') in 0.012836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 391.842124 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_blocker.prefab
+  artifactKey: Guid(73eea014833549e42853d51ff2b37c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_blocker.prefab using Guid(73eea014833549e42853d51ff2b37c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751ede49bbecec4121564fe0a6dcdac3') in 0.033424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.084961 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner.prefab
+  artifactKey: Guid(b3ba71d7c63addc49b57e4c8e35af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner.prefab using Guid(b3ba71d7c63addc49b57e4c8e35af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c9816c54da5242cf7a18f64b7163cf') in 0.035686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_supplement.prefab
+  artifactKey: Guid(0f6d27018f3822b4f871d6e402510f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_supplement.prefab using Guid(0f6d27018f3822b4f871d6e402510f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c4c25d00cadfe3d29478da2dd8b629') in 0.016541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_small.prefab
+  artifactKey: Guid(243f4abba039a1846ad345848e88725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_small.prefab using Guid(243f4abba039a1846ad345848e88725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558180d0593068acda80793e6299c9b0') in 0.022856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner_plug.prefab
+  artifactKey: Guid(abf1f5179163bad469b298f28ca52e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner_plug.prefab using Guid(abf1f5179163bad469b298f28ca52e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4528164b248bde5cac1520728e7d437c') in 0.017494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_blocker_3.prefab
+  artifactKey: Guid(7e2e8028213a4834fa8f2991bdefe708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_blocker_3.prefab using Guid(7e2e8028213a4834fa8f2991bdefe708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f699a93b377d125c49ab3c0f8fb076bc') in 0.022734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 32.380212 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/art_2.fbx
+  artifactKey: Guid(ac4b748f8929540418552255a129f014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_2.fbx using Guid(ac4b748f8929540418552255a129f014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde366656886631fcfb8d9a404acd599') in 0.270282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_6.fbx
+  artifactKey: Guid(0577c0ca7d5215b40b00822d5aa8dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_6.fbx using Guid(0577c0ca7d5215b40b00822d5aa8dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35dbaf920f056286086c135967ec099') in 0.012121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/computer_station.fbx
+  artifactKey: Guid(2127a279fcaa46847ac918e39e53bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/computer_station.fbx using Guid(2127a279fcaa46847ac918e39e53bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397719fb7bf562b9005218a0476fb07d') in 0.017928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_E.fbx
+  artifactKey: Guid(40166e8c866e1ec4a8a5b9055666ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_E.fbx using Guid(40166e8c866e1ec4a8a5b9055666ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d32fcc4a703619af53ea40fbd0ae32') in 0.013688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_5.fbx
+  artifactKey: Guid(04ddb21bd2b21374397dab89f91a4b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_5.fbx using Guid(04ddb21bd2b21374397dab89f91a4b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948481fd83869ce71aee572b954e97b5') in 0.012184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/Cube_1x2_extended.fbx
+  artifactKey: Guid(4ea7f4ce4710e444abbd19154bbe29b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/Cube_1x2_extended.fbx using Guid(4ea7f4ce4710e444abbd19154bbe29b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e840e7a4c65355bb9dd4119fa58f6d9') in 0.012684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_B.fbx
+  artifactKey: Guid(177afface069d0c47af680d3f8a5815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_B.fbx using Guid(177afface069d0c47af680d3f8a5815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defdd5703f1f27c682d643fd899b37c2') in 0.012451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_pilow_LOD0.fbx
+  artifactKey: Guid(f3db2c97405c89448891b5f5e6f734db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_pilow_LOD0.fbx using Guid(f3db2c97405c89448891b5f5e6f734db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dc8e1b3047d3f74efc0383b999bc44') in 0.011652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_A.fbx
+  artifactKey: Guid(f956c720d66359e44b3d685035075942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_A.fbx using Guid(f956c720d66359e44b3d685035075942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83231aea10362b93614263ce52b3d3b7') in 0.012398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/cabinet_L.fbx
+  artifactKey: Guid(90f9643ad123a084381069ff86695c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/cabinet_L.fbx using Guid(90f9643ad123a084381069ff86695c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599b689156f71c5fd8785f7aec9ff998') in 0.012144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/column_end.fbx
+  artifactKey: Guid(ee6694aa089caf34f87e2fc948184268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/column_end.fbx using Guid(ee6694aa089caf34f87e2fc948184268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4177a3a717129c14d9f3edfc3cff49df') in 0.011060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/big_screen.fbx
+  artifactKey: Guid(752b74f5002e02f49927d7006a3e51e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/big_screen.fbx using Guid(752b74f5002e02f49927d7006a3e51e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd952a2ac1819b895a1fcb2b58b7983') in 0.012660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_5.fbx
+  artifactKey: Guid(78fd4647be0da2e4dbbb4bc3cfe6ca31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_5.fbx using Guid(78fd4647be0da2e4dbbb4bc3cfe6ca31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b206b04bc51679e5fb2ae8c416e1c31') in 0.010240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_3_LOD1.fbx
+  artifactKey: Guid(7cf879aac24523744a5b0aad3fea1dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_3_LOD1.fbx using Guid(7cf879aac24523744a5b0aad3fea1dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a7c0b88e7423cd19893e1e227a5744') in 0.011071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/art_4.fbx
+  artifactKey: Guid(c03a6c397607c84439753a0506e06e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_4.fbx using Guid(c03a6c397607c84439753a0506e06e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6ae4a7bd16c2013b33a5c8162d709c') in 0.012952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/Cube_1x1_extended.fbx
+  artifactKey: Guid(7f4ff057efa234740842b9442ebc75e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/Cube_1x1_extended.fbx using Guid(7f4ff057efa234740842b9442ebc75e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed0d79ff0d89a048674e4ba375941e8') in 0.011231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_no_glass_only_top.fbx
+  artifactKey: Guid(cd9aff1dff9e8e842adf7642284a5815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_no_glass_only_top.fbx using Guid(cd9aff1dff9e8e842adf7642284a5815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73b618b47e652ee55881bb6eaa2809b') in 0.011905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_chair_LOD0.fbx
+  artifactKey: Guid(812faa734d6a8c24bb3a23792b50221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_chair_LOD0.fbx using Guid(812faa734d6a8c24bb3a23792b50221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6011bac3605a9f0d4ed3eacb5f1af219') in 0.013048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_sofa_LOD0.fbx
+  artifactKey: Guid(fb39861b198df51498e189d15f1ebc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_sofa_LOD0.fbx using Guid(fb39861b198df51498e189d15f1ebc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76d369df771090950173821e5ebb03c') in 0.012005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_1_LOD0.fbx
+  artifactKey: Guid(cfaae91c0468de14fa52db2da7d5746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_1_LOD0.fbx using Guid(cfaae91c0468de14fa52db2da7d5746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c9521155e985ec859a8454b31d3672') in 0.011723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_1_LOD1.fbx
+  artifactKey: Guid(aa82f952555438f45a16e519c23f9b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_1_LOD1.fbx using Guid(aa82f952555438f45a16e519c23f9b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d92c7dce0dfadf80d74ab608284de7') in 0.014322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_no_computer_LOD1.fbx
+  artifactKey: Guid(5d3d38b9dc0d8f64db55c838c959297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_no_computer_LOD1.fbx using Guid(5d3d38b9dc0d8f64db55c838c959297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead5458c3bfa4440cd680adc623dd6cc') in 0.013985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/console_celing.fbx
+  artifactKey: Guid(a6a5e0bb41ac5234fb1d67dd58baab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/console_celing.fbx using Guid(a6a5e0bb41ac5234fb1d67dd58baab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da999ca4f54f94b3a7436204992bcfac') in 0.013233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_3_LOD0.fbx
+  artifactKey: Guid(6503a922a0ea44849b460610b2ab6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_3_LOD0.fbx using Guid(6503a922a0ea44849b460610b2ab6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9776cbd7ecf91e6b0947854c8216ef') in 0.013283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/cabinet.fbx
+  artifactKey: Guid(dd8d5ab829c8a6c48aafbfe7a869bb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/cabinet.fbx using Guid(dd8d5ab829c8a6c48aafbfe7a869bb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612fdeaf40662127e2126025430c2ee3') in 0.012162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_plant.fbx
+  artifactKey: Guid(77481a7c618d8c14cbf3663b6c659704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_plant.fbx using Guid(77481a7c618d8c14cbf3663b6c659704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c1190bc2c3f8a38836402988af7b7e') in 0.047696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/battery_big.fbx
+  artifactKey: Guid(3968c912f8d8eb74db8c60e247cb61e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/battery_big.fbx using Guid(3968c912f8d8eb74db8c60e247cb61e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722a77aa0a7deb62100162823bd67321') in 0.010538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_computer_LOD1.fbx
+  artifactKey: Guid(c23fae69e42c1a844878231b997a2c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_computer_LOD1.fbx using Guid(c23fae69e42c1a844878231b997a2c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481f0a9b07a0372333dda969a42e98a6') in 0.014504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 115.382541 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/door_2_right.fbx
+  artifactKey: Guid(2c33def46326fbd42a987a9fc6dc1154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/door_2_right.fbx using Guid(2c33def46326fbd42a987a9fc6dc1154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81e4aad5388467bc6238e7e282e8286') in 0.018802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.095549 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/door_3_bottom_B.fbx
+  artifactKey: Guid(559b8a2c3fe7baa48bfca925d384fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/door_3_bottom_B.fbx using Guid(559b8a2c3fe7baa48bfca925d384fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6209805fcdd054f197eddb285e850c40') in 0.044615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_1_LOD1.fbx
+  artifactKey: Guid(c36834fa2d8d0504e9842a6454f207ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_1_LOD1.fbx using Guid(c36834fa2d8d0504e9842a6454f207ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d5d70e3ee646bf2eea23c8960c2928') in 0.020606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_2_L_LOD0.fbx
+  artifactKey: Guid(dd0e6c5981600b342aae11c813c53c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_2_L_LOD0.fbx using Guid(dd0e6c5981600b342aae11c813c53c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403852473d71a1410972afaee688dd9f') in 0.016900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_1_LOD0.fbx
+  artifactKey: Guid(2497a48cf43e1554aa0c4feb1c7e9d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_1_LOD0.fbx using Guid(2497a48cf43e1554aa0c4feb1c7e9d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf42e3653c5b1a9bb8fb3065d205c22') in 0.016497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_2_LOD0.fbx
+  artifactKey: Guid(932518e1472904244afe21e844fd83ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_2_LOD0.fbx using Guid(932518e1472904244afe21e844fd83ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffac1410360026a51e82dcc0b2fcde1c') in 0.021021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_corner_ornament_pipes_corner.fbx
+  artifactKey: Guid(b22ce922b3b4aae46bfa2eeeea927f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_corner_ornament_pipes_corner.fbx using Guid(b22ce922b3b4aae46bfa2eeeea927f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c431569b9bfad390031b5cc7b7bc7e8') in 0.019750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/glass_panel_1_with_door.fbx
+  artifactKey: Guid(1d8fb1d801abb5741a1a870b2e3986dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/glass_panel_1_with_door.fbx using Guid(1d8fb1d801abb5741a1a870b2e3986dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f979d0978e308a77955f5515cf5afa44') in 0.023463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_4.fbx
+  artifactKey: Guid(106d47cb2df648043a2127f1a030963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_4.fbx using Guid(106d47cb2df648043a2127f1a030963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8afd2ed3845edf6e5eb55ce9e854993') in 0.020828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/frame_door_3_colision_mesh.fbx
+  artifactKey: Guid(e497b40124d368543a1971d44952f2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/frame_door_3_colision_mesh.fbx using Guid(e497b40124d368543a1971d44952f2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb5b65bf293bdd9b131ece5f559e26f') in 0.018994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/frame_door_3.fbx
+  artifactKey: Guid(b3b88c627c794d0468531a164197c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/frame_door_3.fbx using Guid(b3b88c627c794d0468531a164197c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec31ee9f068978aff80a35c5f175c9d') in 0.012940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/glass_panel_1_door.fbx
+  artifactKey: Guid(37fb91b59d4d2ba4da8fbcf15d055ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/glass_panel_1_door.fbx using Guid(37fb91b59d4d2ba4da8fbcf15d055ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d0913f2cc6135813924bb7460a6259') in 0.014620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_5.fbx
+  artifactKey: Guid(d33b92b4d2f9ca8409480ae83478fd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_5.fbx using Guid(d33b92b4d2f9ca8409480ae83478fd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c7a4189619727c09ace045316746a5') in 0.022485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_2_no_lattice_LOD0.fbx
+  artifactKey: Guid(9036409ea7a8c974f80d52b06c8a4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_2_no_lattice_LOD0.fbx using Guid(9036409ea7a8c974f80d52b06c8a4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de1234c2e05ff165ba0e6bd02c12cfc') in 0.011599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/frame_door_2_colision_mesh.fbx
+  artifactKey: Guid(4e1b01f9c50ee5343afe22990d2feba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/frame_door_2_colision_mesh.fbx using Guid(4e1b01f9c50ee5343afe22990d2feba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d798b5cf3cb5936595cc85074b3141') in 0.010287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_6.fbx
+  artifactKey: Guid(8d199d8824e784743af821727659334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_6.fbx using Guid(8d199d8824e784743af821727659334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7edfc7cfdc97a9b155988675c9070e') in 0.010415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/frame_door_1_colision_mesh.fbx
+  artifactKey: Guid(4bffff855c108e34c83d8605893f4c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/frame_door_1_colision_mesh.fbx using Guid(4bffff855c108e34c83d8605893f4c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9932fbdf95f36f0d0a9267dacdf5b1f') in 0.009891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/frame_door_2.fbx
+  artifactKey: Guid(4145d79a2e7614c449cbb67181a01886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/frame_door_2.fbx using Guid(4145d79a2e7614c449cbb67181a01886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234e6ad920f1c5bee43dc3a74e8d2d67') in 0.011379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/hologram.fbx
+  artifactKey: Guid(56b5beddc07908b44b129fcaeb971bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/hologram.fbx using Guid(56b5beddc07908b44b129fcaeb971bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafb46c59935340b5c1fa4e0b769af5e') in 0.013554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_1.fbx
+  artifactKey: Guid(d48aaf8e2d925ae4d97369f487b2834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_1.fbx using Guid(d48aaf8e2d925ae4d97369f487b2834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555f62cf45b67f257963b713f342ae40') in 0.011864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/light_wall_2.fbx
+  artifactKey: Guid(1d91adeb4e5ba474aa18a7424a210d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/light_wall_2.fbx using Guid(1d91adeb4e5ba474aa18a7424a210d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c10648da2856d37aa0aa26bc0892f5f') in 0.011907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/shield_generator.fbx
+  artifactKey: Guid(fcf5cb51929ff5446bd8ae59de56ea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/shield_generator.fbx using Guid(fcf5cb51929ff5446bd8ae59de56ea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2951efd011af984a48f105f105a1cf63') in 0.011447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/light_wall_3_blue.fbx
+  artifactKey: Guid(635460dae64fc0a48b0740cfb2e4f6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/light_wall_3_blue.fbx using Guid(635460dae64fc0a48b0740cfb2e4f6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d0642bf9cb6b781865a4b15e423dcb') in 0.009630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/projector_LOD0.fbx
+  artifactKey: Guid(a29d1750fe55dd145b45145a22e287a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/projector_LOD0.fbx using Guid(a29d1750fe55dd145b45145a22e287a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cae1588ef81126127a30474d7a7c95b') in 0.012382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/Joint_Y_6.fbx
+  artifactKey: Guid(904be4b57549ec146a70ee2ea74168f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/Joint_Y_6.fbx using Guid(904be4b57549ec146a70ee2ea74168f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e89cba538e35d3de21caf7434f2ee3') in 0.010022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/hydroponic.fbx
+  artifactKey: Guid(d25667413966ff9489e781bb0a679320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/hydroponic.fbx using Guid(d25667413966ff9489e781bb0a679320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd464d1df75bd080a4a7f76880d734d') in 0.011213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/rotor.fbx
+  artifactKey: Guid(ad8c3b0ce9b6cce45ae865d0312ddc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/rotor.fbx using Guid(ad8c3b0ce9b6cce45ae865d0312ddc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ab13ae2b3e9482522469fab064eaf6') in 0.010814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/Joint_T_6.fbx
+  artifactKey: Guid(382e07d7d5bfdd54a942468dd962b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/Joint_T_6.fbx using Guid(382e07d7d5bfdd54a942468dd962b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b7cc6d2ec9e04aa6c1b13327ef8301') in 0.011485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/shelf.fbx
+  artifactKey: Guid(885fc31b4eec82746bf3f7ee9b1a65b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/shelf.fbx using Guid(885fc31b4eec82746bf3f7ee9b1a65b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86de1c86eebf1f8ce54a2591da0e3b7d') in 0.010725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/shield_generator_rotor.fbx
+  artifactKey: Guid(d87e6b42fd353414cb31b1615da9d5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/shield_generator_rotor.fbx using Guid(d87e6b42fd353414cb31b1615da9d5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87058d8e41c8fbf05c79d4fc038740b') in 0.012367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/light_wall_2_blue.fbx
+  artifactKey: Guid(d3a1262c7f860b5439d4734d0d8786fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/light_wall_2_blue.fbx using Guid(d3a1262c7f860b5439d4734d0d8786fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6c53c50c4c96d9fc727bcca5ac9197') in 0.011391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/pilot_seat.fbx
+  artifactKey: Guid(206baf2e20f35044f927ec9ea215c222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/pilot_seat.fbx using Guid(206baf2e20f35044f927ec9ea215c222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fb5ff545989577824e02d973ac246d') in 0.012537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/projector.fbx
+  artifactKey: Guid(6e13b9f43374cc8499e762339fc31b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/projector.fbx using Guid(6e13b9f43374cc8499e762339fc31b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d3fe0640597c7772e92cc921148d66') in 0.012985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/light_corner_1.fbx
+  artifactKey: Guid(5e79f218a365d3846940e357c137eb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/light_corner_1.fbx using Guid(5e79f218a365d3846940e357c137eb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626673f53e1e0507a8488c8b01a6e5bc') in 0.012883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 21.262313 seconds.
+  path: Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionTexture.png
+  artifactKey: Guid(325bac5adcc39b044b58a1cc8c02ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionTexture.png using Guid(325bac5adcc39b044b58a1cc8c02ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055a9f980c9fdd582f43617d5ef41104') in 0.024980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Height.png
+  artifactKey: Guid(356c407e725a3f848a785b134856cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Height.png using Guid(356c407e725a3f848a785b134856cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea515a4da3212d97d6eef92c4a76becd') in 0.015087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF.asset
+  artifactKey: Guid(f675742eaf9c20a4f909d78ee7a14fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF.asset using Guid(f675742eaf9c20a4f909d78ee7a14fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f23bcb8d5816d482449acb0397b521') in 0.038553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Bottom.png
+  artifactKey: Guid(b873120a80369e440ba03e663b63fc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Bottom.png using Guid(b873120a80369e440ba03e663b63fc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ef741254a2f0e4dfc6b831bd4d6de0') in 0.030817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Concrete_Metallic.tif
+  artifactKey: Guid(5d6f91bab10f9f345aa741e70bc0fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Concrete_Metallic.tif using Guid(5d6f91bab10f9f345aa741e70bc0fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56985dc90e4f741051d829141b719aa') in 0.017905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Joystick BG.png
+  artifactKey: Guid(9fe4f9eb838ecb4419917ae68007ca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Joystick BG.png using Guid(9fe4f9eb838ecb4419917ae68007ca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ab422bbf3f95285feb3081fb700448') in 0.021256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2cb3966a7b9c3b7e4f11985a9b7686') in 0.037427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Base_color.png
+  artifactKey: Guid(27ef0c8a1f7e7f24c8dfdcdf67dbe928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Base_color.png using Guid(27ef0c8a1f7e7f24c8dfdcdf67dbe928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8093a7a7c78425020cd4429d21650d77') in 0.015433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 1.png
+  artifactKey: Guid(aa1e07d3e3ba968489f3cba3bbe76b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 1.png using Guid(aa1e07d3e3ba968489f3cba3bbe76b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20df51626e0a65c2b6630bd762e2782') in 0.025589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Outline.png
+  artifactKey: Guid(58bc8d49e10d1bc40813d8974b8b3a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Outline.png using Guid(58bc8d49e10d1bc40813d8974b8b3a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7909e18e27311e4f4e27395a71174316') in 0.017229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF NoBackfaceCulling.asset
+  artifactKey: Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF NoBackfaceCulling.asset using Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860c4c8dae7053cb4aeabe320ff5a3f3') in 0.021322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10.png
+  artifactKey: Guid(65d31ca9600c4654e886aa7bab36e94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Round Radius 10.png using Guid(65d31ca9600c4654e886aa7bab36e94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ff6cb083e70ec9f8f6390f98955c27') in 0.015206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Circle_60x60 Outline.png
+  artifactKey: Guid(7edfa9a28dcc4584ba5194e74c74f93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Circle_60x60 Outline.png using Guid(7edfa9a28dcc4584ba5194e74c74f93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f677fb79aa41c93914819b20d1c6d5a') in 0.015291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Pause.png
+  artifactKey: Guid(5f4d26dedc364e74d880a7125d57119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Pause.png using Guid(5f4d26dedc364e74d880a7125d57119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698afca561f29d0969354069195e6744') in 0.014955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Chevron.png
+  artifactKey: Guid(c587cac8808c8b745adbae420e9acc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Chevron.png using Guid(c587cac8808c8b745adbae420e9acc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a076025861abd894a040fa66a9f8619') in 0.014591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/CircleMask.png
+  artifactKey: Guid(79dfa83adcf72d541946168c849ba331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/UI/CircleMask.png using Guid(79dfa83adcf72d541946168c849ba331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8e9b27ff8a32cd8ce461711bf63783') in 0.017732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Metallic.png
+  artifactKey: Guid(7e51390506d6084449db036c4dde2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Metallic.png using Guid(7e51390506d6084449db036c4dde2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd079d6ea3b609e7101314039420db00d') in 0.013750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal.png
+  artifactKey: Guid(9d8f4347f4a7fca4da366badc483a84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal.png using Guid(9d8f4347f4a7fca4da366badc483a84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fca82cccf4bf76cbbc446c416f9e70') in 0.012599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Circle_60x60_Vertical.png
+  artifactKey: Guid(83d67d78424a7e24fa4bef36e1e32541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Circle_60x60_Vertical.png using Guid(83d67d78424a7e24fa4bef36e1e32541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38219baa84fc26f5fbdaccf8baf85ccd') in 0.015123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Top.png
+  artifactKey: Guid(de0113b98aad70a419960e61a7d8d6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Top.png using Guid(de0113b98aad70a419960e61a7d8d6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d1564ed62c298448f15e37ad6c8183') in 0.017429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal_OpenGL.png
+  artifactKey: Guid(400b852fe920b6f4c88997509431791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal_OpenGL.png using Guid(400b852fe920b6f4c88997509431791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041825b231d59fb2580e745cf2a613f0') in 0.020494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Rotate Right.png
+  artifactKey: Guid(1e4fbbf0f3e2efa428b2176e5a91baed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Rotate Right.png using Guid(1e4fbbf0f3e2efa428b2176e5a91baed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d071d78f6a9cadce4991c57e873c3c') in 0.016238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Checkmark.png
+  artifactKey: Guid(4aafc51823472ec4ea8ab57045fb659a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Checkmark.png using Guid(4aafc51823472ec4ea8ab57045fb659a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a384c423966cef3a3c1b0d10e6cee1b') in 0.016789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Roughness.png
+  artifactKey: Guid(319adc7d9f08d654a854fd141a197589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Roughness.png using Guid(319adc7d9f08d654a854fd141a197589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638eade60703485eac737775837d8cdb') in 0.014000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Frosted_Glass_Pattern_AlbedoTransparency.png
+  artifactKey: Guid(ec39cf1992b67944dbbaeb7f183de318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Frosted_Glass_Pattern_AlbedoTransparency.png using Guid(ec39cf1992b67944dbbaeb7f183de318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1209b3e7e9ab30962f3872e6f1e896d9') in 0.013724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
