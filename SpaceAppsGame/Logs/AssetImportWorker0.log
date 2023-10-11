@@ -15,7 +15,7 @@ C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51550
+56929
 Successfully changed project path to: C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame
 C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25332] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 624803607 [EditorId] 624803607 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23804] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1476522875 [EditorId] 1476522875 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25332] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 624803607 [EditorId] 624803607 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23804] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1476522875 [EditorId] 1476522875 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 21.79 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
+Refreshing native plugins compatible for Editor in 24.58 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010007 seconds.
-- Loaded All Assemblies, in  0.402 seconds
+Registered in 0.006264 seconds.
+- Loaded All Assemblies, in  0.332 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.300 seconds
-Domain Reload Profiling: 699ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 587ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (102ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (166ms)
-				TypeCache.ScanAssembly (149ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (300ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (225ms)
+		SetupLoadedEditorAssemblies (198ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (146ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 699ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.783 seconds
-Refreshing native plugins compatible for Editor in 16.53 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.731 seconds
+Refreshing native plugins compatible for Editor in 16.79 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,150 +147,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.775 seconds
-Domain Reload Profiling: 1554ms
-	BeginReloadAssembly (187ms)
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1499ms
+	BeginReloadAssembly (148ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
+		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (485ms)
-		LoadAssemblies (346ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (315ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (243ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (181ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (776ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (771ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (583ms)
+		SetupLoadedEditorAssemblies (577ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (414ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 20.22 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 4570 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (75.2 KB). Loaded Objects now: 5065.
-Memory consumption went from 155.0 MB to 154.9 MB.
-Total: 3.431500 ms (FindLiveObjects: 0.334900 ms CreateObjectMapping: 0.393900 ms MarkObjects: 2.568800 ms  DeleteObjects: 0.132700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 34166.651749 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/battery.fbx
-  artifactKey: Guid(154329710c2ffe04397c646ac704cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/battery.fbx using Guid(154329710c2ffe04397c646ac704cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64aa8f73eb1992c291a662ff2718e72a') in 0.114884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_leaves.mat
-  artifactKey: Guid(5d84bcb5cc458944085f3169d277536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_leaves.mat using Guid(5d84bcb5cc458944085f3169d277536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e57ef3e614053e0fe23d4dee7fcbf5') in 0.043381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat
-  artifactKey: Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat using Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e840dd25fffc4ae486db457c9028372') in 0.012719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/lattice.mat
-  artifactKey: Guid(0f4853191d321d748b1f95a97d7b37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/lattice.mat using Guid(0f4853191d321d748b1f95a97d7b37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c0ced7871f166fadaa603d7195f985') in 0.010489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/screen.mat
-  artifactKey: Guid(bf1464b84bb76b44abb088d5a41acfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/screen.mat using Guid(bf1464b84bb76b44abb088d5a41acfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8fd2416f15e6608f4c7faf22ffa076') in 0.007729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/battery_medium.fbx
-  artifactKey: Guid(c1c48e1341ea35d4fa172cdb915ed140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/battery_medium.fbx using Guid(c1c48e1341ea35d4fa172cdb915ed140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7668d1522ad25692c7ae376c24590ec') in 0.024800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_4_LOD1.fbx
-  artifactKey: Guid(b57b8db81ab64b04c817c7c3feabc2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_4_LOD1.fbx using Guid(b57b8db81ab64b04c817c7c3feabc2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac568f75f07f392ba466436e6225947') in 0.040554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_glass_only_top.fbx
-  artifactKey: Guid(ff8f8f75adfd48d4991367a973d14ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_glass_only_top.fbx using Guid(ff8f8f75adfd48d4991367a973d14ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6e455c70e77d38d9ec91a5eb9a5ca8') in 0.024870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_plant.fbx
-  artifactKey: Guid(77481a7c618d8c14cbf3663b6c659704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_plant.fbx using Guid(77481a7c618d8c14cbf3663b6c659704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1870955e492681b1e83562809713161f') in 0.044820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/battery_big.fbx
-  artifactKey: Guid(3968c912f8d8eb74db8c60e247cb61e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/battery_big.fbx using Guid(3968c912f8d8eb74db8c60e247cb61e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910c600d4b96f585bfc2e0e6bfd10c24') in 0.012708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 12.87 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 14.26 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 5110.
-Memory consumption went from 83.2 MB to 83.2 MB.
-Total: 3.970400 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.350700 ms MarkObjects: 3.277200 ms  DeleteObjects: 0.024300 ms)
+Unloading 4570 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (75.5 KB). Loaded Objects now: 5065.
+Memory consumption went from 154.7 MB to 154.7 MB.
+Total: 6.063800 ms (FindLiveObjects: 0.492700 ms CreateObjectMapping: 0.754400 ms MarkObjects: 4.649500 ms  DeleteObjects: 0.165900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -304,6 +202,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34614.038687 seconds.
+  path: Assets/Samples/Scenes/Level3.unity
+  artifactKey: Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Scenes/Level3.unity using Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c56a428df13c1c0e7702d8b7969bb3') in 0.002341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.167305 seconds.
+  path: Assets/Sorin Models/Earth/Materials/earth_diff.mat
+  artifactKey: Guid(458fcc99c4f5713498f6650b796a3876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sorin Models/Earth/Materials/earth_diff.mat using Guid(458fcc99c4f5713498f6650b796a3876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f80f0f8305d4fb4c1405591f1c725d') in 0.110770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.034013 seconds.
+  path: Assets/Samples/Scenes/Level2.unity
+  artifactKey: Guid(313e69eff029d0e499b35525e9f3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Scenes/Level2.unity using Guid(313e69eff029d0e499b35525e9f3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2659d32c79cd3c7c932bee8bdaec63') in 0.000560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.400656 seconds.
+  path: Assets/Samples/Scenes/Level3.unity
+  artifactKey: Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Scenes/Level3.unity using Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33adbea3d0c2970a74da6e9047797d9e') in 0.000418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.849963 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_3.prefab
+  artifactKey: Guid(2216270888a4ced48b33b7b5641611e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_3.prefab using Guid(2216270888a4ced48b33b7b5641611e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a411355e581966de924845e412c8b046') in 0.034806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.118793 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/glass_panel_1.prefab
+  artifactKey: Guid(a5cd29a93d7ae2d488fa0376d0d08462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/glass_panel_1.prefab using Guid(a5cd29a93d7ae2d488fa0376d0d08462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab91ad5973d3fe8abf91333edbb7aea1') in 0.039274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/wall_big.prefab
+  artifactKey: Guid(b38a3290156af5046a449900e3163984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/wall_big.prefab using Guid(b38a3290156af5046a449900e3163984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1d500f53576d431ee894f3fb97ee1a') in 0.034681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
