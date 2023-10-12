@@ -15,7 +15,7 @@ C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56929
+61504
 Successfully changed project path to: C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame
 C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23804] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1476522875 [EditorId] 1476522875 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17580] Host "[IP] 169.254.61.116 [Port] 0 [Flags] 2 [Guid] 2157307841 [EditorId] 2157307841 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23804] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1476522875 [EditorId] 1476522875 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17580] Host "[IP] 169.254.61.116 [Port] 0 [Flags] 2 [Guid] 2157307841 [EditorId] 2157307841 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 24.58 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 21.57 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/SpaceAppsNominees/SpaceAppsGame/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006264 seconds.
-- Loaded All Assemblies, in  0.332 seconds
+Registered in 0.007555 seconds.
+- Loaded All Assemblies, in  0.382 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.256 seconds
-Domain Reload Profiling: 587ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.271 seconds
+Domain Reload Profiling: 651ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (107ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (117ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (116ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (131ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (257ms)
+	FinalizeReload (271ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (198ms)
+		SetupLoadedEditorAssemblies (208ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 587ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.731 seconds
-Refreshing native plugins compatible for Editor in 16.79 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.725 seconds
+Refreshing native plugins compatible for Editor in 16.06 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,47 +147,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.770 seconds
-Domain Reload Profiling: 1499ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 1514ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (477ms)
-		LoadAssemblies (315ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (330ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (191ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (181ms)
 			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (771ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (793ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (577ms)
+		SetupLoadedEditorAssemblies (590ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (410ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 14.26 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 13.86 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 4570 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (75.5 KB). Loaded Objects now: 5065.
-Memory consumption went from 154.7 MB to 154.7 MB.
-Total: 6.063800 ms (FindLiveObjects: 0.492700 ms CreateObjectMapping: 0.754400 ms MarkObjects: 4.649500 ms  DeleteObjects: 0.165900 ms)
+Unloading 76 unused Assets / (75.1 KB). Loaded Objects now: 5065.
+Memory consumption went from 155.0 MB to 155.0 MB.
+Total: 3.686300 ms (FindLiveObjects: 0.381900 ms CreateObjectMapping: 0.394400 ms MarkObjects: 2.760600 ms  DeleteObjects: 0.148400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -204,60 +204,108 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 34614.038687 seconds.
-  path: Assets/Samples/Scenes/Level3.unity
+  Time since last request: 94357.239121 seconds.
+  path: Assets/Scenes/Level3.unity
   artifactKey: Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Scenes/Level3.unity using Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c56a428df13c1c0e7702d8b7969bb3') in 0.002341 seconds
+Start importing Assets/Scenes/Level3.unity using Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85c64d2207008fc3628ac6555005d1e') in 0.002433 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.167305 seconds.
-  path: Assets/Sorin Models/Earth/Materials/earth_diff.mat
-  artifactKey: Guid(458fcc99c4f5713498f6650b796a3876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sorin Models/Earth/Materials/earth_diff.mat using Guid(458fcc99c4f5713498f6650b796a3876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f80f0f8305d4fb4c1405591f1c725d') in 0.110770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.034013 seconds.
-  path: Assets/Samples/Scenes/Level2.unity
+  Time since last request: 288.226382 seconds.
+  path: Assets/Scenes/Level2.unity
   artifactKey: Guid(313e69eff029d0e499b35525e9f3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Scenes/Level2.unity using Guid(313e69eff029d0e499b35525e9f3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2659d32c79cd3c7c932bee8bdaec63') in 0.000560 seconds
+Start importing Assets/Scenes/Level2.unity using Guid(313e69eff029d0e499b35525e9f3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78f2f7abde13b6b7a2eb8188402834d') in 0.000691 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 31.400656 seconds.
-  path: Assets/Samples/Scenes/Level3.unity
+  Time since last request: 391.640045 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(313e69eff029d0e499b35525e9f3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(313e69eff029d0e499b35525e9f3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf396efa2de8516d858dc81456058671') in 0.000685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.221378 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(73d0e8669e748c24da16105762df50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(73d0e8669e748c24da16105762df50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e7db7823a018a408fcf2b11920e3d5') in 0.000381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.159821 seconds.
+  path: Assets/Scenes/Level3.unity
   artifactKey: Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Scenes/Level3.unity using Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33adbea3d0c2970a74da6e9047797d9e') in 0.000418 seconds
+Start importing Assets/Scenes/Level3.unity using Guid(82e32c342c198d34c922707ce14a522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836fcd1d0b7014a91a0f75a007c2fc33') in 0.000393 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 14.849963 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_3.prefab
-  artifactKey: Guid(2216270888a4ced48b33b7b5641611e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_3.prefab using Guid(2216270888a4ced48b33b7b5641611e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a411355e581966de924845e412c8b046') in 0.034806 seconds
+  Time since last request: 6.238474 seconds.
+  path: Assets/Scenes/Level4.unity
+  artifactKey: Guid(c5f48dc238a5843418aa83119434d8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level4.unity using Guid(c5f48dc238a5843418aa83119434d8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416947a28f16711b3c397f8cc1a46c9f') in 0.000506 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.118793 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/glass_panel_1.prefab
-  artifactKey: Guid(a5cd29a93d7ae2d488fa0376d0d08462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/glass_panel_1.prefab using Guid(a5cd29a93d7ae2d488fa0376d0d08462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab91ad5973d3fe8abf91333edbb7aea1') in 0.039274 seconds
+  Time since last request: 10.123484 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(9290f712edb36c744851e70a2a4615cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(9290f712edb36c744851e70a2a4615cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5266580764ccc13006e13a1f1116a0da') in 0.000428 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/wall_big.prefab
-  artifactKey: Guid(b38a3290156af5046a449900e3163984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/wall_big.prefab using Guid(b38a3290156af5046a449900e3163984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1d500f53576d431ee894f3fb97ee1a') in 0.034681 seconds
+  Time since last request: 168.919803 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/console.fbx
+  artifactKey: Guid(7d22befb952c070459bc8f06ba0a5f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/console.fbx using Guid(7d22befb952c070459bc8f06ba0a5f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b7dd910f73f4b6bea757169e55b1b1') in 0.147589 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 269.726583 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(9290f712edb36c744851e70a2a4615cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(9290f712edb36c744851e70a2a4615cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb44816978201dea36156c2e2794bbdd') in 0.000595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 340.897480 seconds.
+  path: Assets/Settings/Project Configuration/BasicScene.scenetemplate
+  artifactKey: Guid(ca6cdc11bc902ba4c85c423630187a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Project Configuration/BasicScene.scenetemplate using Guid(ca6cdc11bc902ba4c85c423630187a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607f87656409e08d05d9b52c04ae9661') in 0.170743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 603
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/UI/Spatial Panel Scroll.prefab
+  artifactKey: Guid(085ce58b196caa446a8545c9dd388793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Prefabs/UI/Spatial Panel Scroll.prefab using Guid(085ce58b196caa446a8545c9dd388793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d8cb121f4b56f49bd597399a1cfecb') in 0.035477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990eaef84f31060a729f2b78231b95c4') in 0.011638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/UI_2D/Scroll UI Sample.prefab
+  artifactKey: Guid(0cbc0856f0fb8d84a81be5dea463c369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/UI_2D/Scroll UI Sample.prefab using Guid(0cbc0856f0fb8d84a81be5dea463c369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5df5a5585342de9173ca60982fe5035') in 0.008703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
