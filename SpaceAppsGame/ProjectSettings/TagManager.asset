@@ -6,11 +6,8 @@ TagManager:
   tags:
   - Level1
   - Anchor
-  - Level_1
-  - Level2
-  - Level_2
-  - Level3
-  - Level_3
+  - level+
+  - level_
   layers:
   - Default
   - TransparentFX

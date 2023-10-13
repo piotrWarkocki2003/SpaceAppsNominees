@@ -1418,7 +1418,7 @@ GameObject:
   - component: {fileID: 634749216}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Level2
+  m_TagString: level_
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1912,7 +1912,7 @@ GameObject:
   - component: {fileID: 1266145132}
   m_Layer: 0
   m_Name: End
-  m_TagString: Level_1
+  m_TagString: level+
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

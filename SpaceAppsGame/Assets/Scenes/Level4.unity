@@ -2288,7 +2288,7 @@ GameObject:
   - component: {fileID: 1188848476}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: level_
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2468,7 +2468,7 @@ GameObject:
   - component: {fileID: 1222085020}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: level+
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

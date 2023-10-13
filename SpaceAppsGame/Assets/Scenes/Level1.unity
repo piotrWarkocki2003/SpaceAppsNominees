@@ -1162,7 +1162,7 @@ GameObject:
   - component: {fileID: 664453554}
   m_Layer: 0
   m_Name: lvl finish
-  m_TagString: Level1
+  m_TagString: level+
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3597,6 +3597,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9128732195620379, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2888662139421395368, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_Name
       value: XR
