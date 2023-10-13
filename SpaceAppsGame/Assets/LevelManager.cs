@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    public GameObject doorT;
+    public GameObject doorB;
     private void OnTriggerEnter(Collider colision)
     {
         if (colision.tag == "level+")
@@ -15,6 +17,12 @@ public class LevelManager : MonoBehaviour
         if (colision.tag == "level_")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
+
+        if (colision.tag == "door")
+        {
+            doorT.SetActive(false);
+            doorB.SetActive(false);
         }
     }
 }
