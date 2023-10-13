@@ -2932,6 +2932,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -35
       objectReference: {fileID: 0}
+    - target: {fileID: 2168176618714280305, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2257794830677522502, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2944,9 +2948,29 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.15
       objectReference: {fileID: 0}
+    - target: {fileID: 3274272684039276866, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3471993096151958453, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738074635240360312, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994898121093267261, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027676349752875801, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4337117141180797538, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5071263873556935481, guid: 6a35ea84939ee134cbda83a9077b5057, type: 3}
       propertyPath: m_Mesh
