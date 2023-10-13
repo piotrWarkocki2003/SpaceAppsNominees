@@ -8,6 +8,8 @@ TagManager:
   - Anchor
   - level+
   - level_
+  - door_top
+  - door_bottom
   layers:
   - Default
   - TransparentFX
