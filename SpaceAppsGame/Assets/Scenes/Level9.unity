@@ -4104,10 +4104,6 @@ PrefabInstance:
       propertyPath: m_InteractionLayers.m_Bits
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 4137204142868152113, guid: 8def96513513f0e49a68c8b84b38ba1b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.364
-      objectReference: {fileID: 0}
     - target: {fileID: 4635106558154541062, guid: 8def96513513f0e49a68c8b84b38ba1b, type: 3}
       propertyPath: m_Layer
       value: 3
