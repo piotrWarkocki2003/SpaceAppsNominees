@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.04365709, g: 0.044818856, b: 0.05955075, a: 1}
+  m_IndirectSpecularColor: {r: 0.043663032, g: 0.04482539, b: 0.059559315, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1627,6 +1627,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 115324, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+      propertyPath: m_TagString
+      value: door
+      objectReference: {fileID: 0}
     - target: {fileID: 141230, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
       propertyPath: m_TagString
       value: door
@@ -1701,6 +1705,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 415124, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
   m_PrefabInstance: {fileID: 1081455188}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1081455190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 141230, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+  m_PrefabInstance: {fileID: 1081455188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1081455191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187554, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+  m_PrefabInstance: {fileID: 1081455188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1081455192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 115324, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+  m_PrefabInstance: {fileID: 1081455188}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1082376722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,8 +1777,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The Sunny Side\nput roomChanger collider on this \ndoor instead of \nmaking
-    room behind "
+  m_text: 'The Sunny Side
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3672,6 +3692,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 115324, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+      propertyPath: m_TagString
+      value: door
+      objectReference: {fileID: 0}
     - target: {fileID: 141230, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3740,6 +3764,21 @@ PrefabInstance:
 --- !u!4 &1735312864 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 415124, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+  m_PrefabInstance: {fileID: 1735312863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1735312865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 141230, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+  m_PrefabInstance: {fileID: 1735312863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1735312866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187554, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+  m_PrefabInstance: {fileID: 1735312863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1735312867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 115324, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
   m_PrefabInstance: {fileID: 1735312863}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1772956475
@@ -4107,6 +4146,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 16.629
       objectReference: {fileID: 0}
+    - target: {fileID: 1291623871106252469, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: doorB
+      value: 
+      objectReference: {fileID: 1735312866}
+    - target: {fileID: 1291623871106252469, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: doorO
+      value: 
+      objectReference: {fileID: 1735312867}
+    - target: {fileID: 1291623871106252469, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: doorT
+      value: 
+      objectReference: {fileID: 1735312865}
+    - target: {fileID: 1291623871106252469, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: doorB2
+      value: 
+      objectReference: {fileID: 1081455190}
+    - target: {fileID: 1291623871106252469, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: doorO2
+      value: 
+      objectReference: {fileID: 1081455192}
+    - target: {fileID: 1291623871106252469, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: doorT2
+      value: 
+      objectReference: {fileID: 1081455191}
     - target: {fileID: 2888662139421395368, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_Name
       value: XR
