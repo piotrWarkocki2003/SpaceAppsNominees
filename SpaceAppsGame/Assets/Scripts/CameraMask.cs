@@ -27,8 +27,8 @@ public class CameraMask : MonoBehaviour
        
     }
 
-    private void OnTriggerEnter(Collider other)
-    {      
+    private void OnTriggerStay(Collider other)
+    {
         ReturnBack.SetActive(true);
         myCamera.cullingMask &= ~cullingMask;
         myCamera.cullingMask |= viewerMask;
