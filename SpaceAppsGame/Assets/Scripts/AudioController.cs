@@ -20,7 +20,8 @@ public class AudioController : MonoBehaviour
 
     void Start()
     {
-        door = GameObject.FindWithTag("glass_panel_1_door");
+        door = GameObject.Find("glass_panel_1_door");
+
     }
 
     private void Update()

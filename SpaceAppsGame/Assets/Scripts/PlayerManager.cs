@@ -15,8 +15,9 @@ public class PlayerManager : MonoBehaviour
     {
         doorToBeRemoved = GameObject.Find("glass_panel_1_door");
         initialSpawnPoint = GameObject.Find("InitialSpawn");
-        returnPoint = GameObject.Find("ReturnPoint");
-        player = GameObject.Find("XR");
+        returnPoint = GameObject.Find("ReturnSpawn");
+        player = GameObject.Find("XR Rig");
+        
     }
 
 
@@ -24,20 +25,17 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int lastSceneIndex = PlayerPrefs.GetInt("LastSceneIndex");
-        Debug.Log("Last Scene Index: " + lastSceneIndex);
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-        Debug.Log("Current Scene Index: " + currentSceneIndex);
+        player.transform.position = initialSpawnPoint.transform.position;
+        //int lastSceneIndex = PlayerPrefs.GetInt("LastSceneIndex");
+        //Debug.Log("Last Scene Index: " + lastSceneIndex);
+        //int currentSceneIndex = (SceneManager.GetActiveScene().buildIndex + 1);
+        //Debug.Log("Current Scene Index: " + currentSceneIndex);
 
-        if (lastSceneIndex == currentSceneIndex)// check if the build index for this scene is one less than the previous
-        {
-            player.transform.position = returnPoint.transform.position;
-            doorToBeRemoved.SetActive(false);
-        }
+        //if (lastSceneIndex == currentSceneIndex)// check if the build index for this scene is one less than the previous
+        //{
+        //    player.transform.position = returnPoint.transform.position;
+        //    doorToBeRemoved.SetActive(false);
+        //}
 
-        else
-        {
-            player.transform.position = initialSpawnPoint.transform.position;
-        }
     }
 }

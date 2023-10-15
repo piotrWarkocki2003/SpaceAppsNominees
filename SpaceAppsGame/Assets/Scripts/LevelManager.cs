@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
 
 {
 
+    int currentSceneIndex = 0;
+
     public GameObject doorT;
 
     public GameObject doorB;
@@ -49,6 +51,7 @@ public class LevelManager : MonoBehaviour
 
         doorO2 = GameObject.FindWithTag("door2");
 
+        
     }
 
 
@@ -73,8 +76,8 @@ public class LevelManager : MonoBehaviour
 
         {
 
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
+            currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
 
             PlayerPrefs.SetInt("LastSceneIndex", currentSceneIndex);

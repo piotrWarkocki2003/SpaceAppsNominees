@@ -3783,7 +3783,7 @@ Transform:
   m_GameObject: {fileID: 2116901533}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 2.5, z: 16}
+  m_LocalPosition: {x: 3.5, y: 2.5, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3861,6 +3861,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5729380385700772655, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: m_XROrigin
+      value: 
+      objectReference: {fileID: 954741505509992917}
     - target: {fileID: 7733279755043573347, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 767
@@ -3931,6 +3935,17 @@ MonoBehaviour:
   initialSpawnPoint: {fileID: 0}
   returnPoint: {fileID: 0}
   player: {fileID: 0}
+--- !u!114 &954741505509992917 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1095440279241337382, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+  m_PrefabInstance: {fileID: 954741505509992892}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954741505509992897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
