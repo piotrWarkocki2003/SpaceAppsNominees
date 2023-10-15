@@ -28,7 +28,8 @@ Repository for the NASA SpaceApps challenge 2023
 
 ## Video
 ** Video Demo **
-> lads u can put ur stuff here if u want.
+> The Video Demo Will be found in a different folder. (Demo Video)
+
 
 ## Requirements
 ** Set-up **
