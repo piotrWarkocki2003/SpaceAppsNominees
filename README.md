@@ -9,7 +9,6 @@ Repository for the NASA SpaceApps challenge 2023
 	* [Cloning repository](#repo)
 	* [Oculus install](#Oculus)
 	* [Unity Engine](#Unity)
-- [Resources](#Resources)
 
 
 ## Challenge
@@ -51,10 +50,6 @@ Repository for the NASA SpaceApps challenge 2023
 	from the same website in requirements part 5.
 2. Assuming that the software for github, Virtual Reality headset and
 	correct version of Unity game engine were downloaded, move on to step 3.
-	
-	### Cloning repository
-	1. 
-
 
 	### Oculus
 	1. After downloading the respective software for your VR headset.
@@ -76,5 +71,3 @@ Repository for the NASA SpaceApps challenge 2023
 	6. Again a prompt to click "next will" appear before the download
 	7. And will show where the Unity file will be installed to on the device.
 	8. The Unity version will then fully install and be usable on the device.
-
-## Resources
