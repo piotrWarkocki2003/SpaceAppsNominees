@@ -56,7 +56,7 @@ Repository for the NASA SpaceApps challenge 2023
 	1. After downloading the respective software for your VR headset.
 	2. A prompt will appear after the download if the software can make changes to
 		your device.
-	3. A window will appear with a blue button "get stated".
+	3. A window will appear with a blue button "get started".
 	4. After agreeing to terms of service.
 	5. The software will begin a full install.
 	6. After click the blue "next" button.
@@ -65,7 +65,7 @@ Repository for the NASA SpaceApps challenge 2023
 	### Unity
 	1. After downloading the unity version.
 	2. A prompt to download Unity Hub might appear,
-		downloading Unity Hub will also be needed.
+	downloading Unity Hub will also be needed.
 	3. After agreeing for Unity version to make changes to your device
 	4. A set-up window will appear, after clicking "next" in the bottom right hand corner.
 	5. Unity will then ask to agree to terms of service to use the software.
