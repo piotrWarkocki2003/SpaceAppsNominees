@@ -10,9 +10,6 @@ TagManager:
   - level_
   - door
   - door2
-  - dDoor
-  - nextLevel
-  - previousLevel
   layers:
   - Default
   - TransparentFX

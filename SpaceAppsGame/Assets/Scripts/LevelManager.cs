@@ -72,6 +72,15 @@ public class LevelManager : MonoBehaviour
         if (colision.tag == "previousLevel")
 
         {
+
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+
+
+            PlayerPrefs.SetInt("LastSceneIndex", currentSceneIndex);
+
+            PlayerPrefs.Save();
+
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
         }
