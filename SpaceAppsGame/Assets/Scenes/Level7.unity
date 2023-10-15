@@ -2399,6 +2399,14 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.21012497
       objectReference: {fileID: 0}
+    - target: {fileID: 4955427604478092350, guid: 0a76f13eefd547a4686b46cf8cffdbc3, type: 3}
+      propertyPath: SpawnPoint.x
+      value: -17.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955427604478092350, guid: 0a76f13eefd547a4686b46cf8cffdbc3, type: 3}
+      propertyPath: SpawnPoint.y
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6536487832496598897, guid: 0a76f13eefd547a4686b46cf8cffdbc3, type: 3}
       propertyPath: m_Size.x
       value: 3.497095
