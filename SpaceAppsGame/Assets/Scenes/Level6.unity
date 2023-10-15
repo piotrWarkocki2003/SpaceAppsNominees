@@ -4198,6 +4198,14 @@ PrefabInstance:
       propertyPath: doorT2
       value: 
       objectReference: {fileID: 1081455191}
+    - target: {fileID: 1401129271779710812, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: voiceAudioForThisScene
+      value: 
+      objectReference: {fileID: 1966801454}
+    - target: {fileID: 1401129271779710812, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: backgroundAudioForThisScene
+      value: 
+      objectReference: {fileID: 1966801455}
     - target: {fileID: 1527208392485562294, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -4210,10 +4218,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4065520873142222807, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 53a3fd4439e6ea647bddd3dfc97f1489, type: 3}
     - target: {fileID: 4109656813197491544, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.008
       objectReference: {fileID: 0}
+    - target: {fileID: 4137042450822350423, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5de98e7741d0d754c949867f67be10c7, type: 3}
     - target: {fileID: 4427850345543247229, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -4299,6 +4315,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+--- !u!82 &1966801454 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4065520873142222807, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+  m_PrefabInstance: {fileID: 1966801453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1966801455 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4137042450822350423, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+  m_PrefabInstance: {fileID: 1966801453}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1968866855
 GameObject:
   m_ObjectHideFlags: 0

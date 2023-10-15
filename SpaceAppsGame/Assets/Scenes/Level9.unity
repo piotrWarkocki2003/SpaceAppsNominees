@@ -3321,6 +3321,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1276999920}
+    - target: {fileID: 1401129271779710812, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: backgroundAudioForThisScene
+      value: 
+      objectReference: {fileID: 1338116847}
     - target: {fileID: 1527208392485562294, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -3353,6 +3357,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 12.43
       objectReference: {fileID: 0}
+    - target: {fileID: 4137042450822350423, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5de98e7741d0d754c949867f67be10c7, type: 3}
     - target: {fileID: 4427850345543247229, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -3450,6 +3458,11 @@ PrefabInstance:
       addedObject: {fileID: 344349309}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+--- !u!82 &1338116847 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4137042450822350423, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+  m_PrefabInstance: {fileID: 1338116846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1516229241
 GameObject:
   m_ObjectHideFlags: 0
