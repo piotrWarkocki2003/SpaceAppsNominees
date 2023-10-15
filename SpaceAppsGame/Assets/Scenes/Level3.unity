@@ -1729,6 +1729,10 @@ PrefabInstance:
       propertyPath: voiceAudioForThisScene
       value: 
       objectReference: {fileID: 905646870}
+    - target: {fileID: 1401129271779710812, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: backgroundAudioForThisScene
+      value: 
+      objectReference: {fileID: 905646872}
     - target: {fileID: 1527208392485562294, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1865,6 +1869,11 @@ AudioSource:
 --- !u!1 &905646871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1527208392485562294, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+  m_PrefabInstance: {fileID: 905646869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &905646872 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4065520873142222807, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
   m_PrefabInstance: {fileID: 905646869}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &921858396

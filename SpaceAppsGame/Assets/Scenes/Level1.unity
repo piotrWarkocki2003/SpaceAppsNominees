@@ -2423,6 +2423,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 428906, guid: a5cd29a93d7ae2d488fa0376d0d08462, type: 3}
   m_PrefabInstance: {fileID: 1383834298}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1483677475 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4065520873142222807, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+  m_PrefabInstance: {fileID: 954741505509992892}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1553673066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3796,6 +3801,10 @@ PrefabInstance:
       propertyPath: voiceAudioForThisScene
       value: 
       objectReference: {fileID: 954741505509992895}
+    - target: {fileID: 1401129271779710812, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
+      propertyPath: backgroundAudioForThisScene
+      value: 
+      objectReference: {fileID: 1483677475}
     - target: {fileID: 2888662139421395368, guid: ea7dbda7a5bd5964cadd2e72b6f356da, type: 3}
       propertyPath: m_Name
       value: XR
