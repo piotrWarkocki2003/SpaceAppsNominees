@@ -12,6 +12,7 @@ TagManager:
   - door2
   - nextLevel
   - previousLevel
+  - BoundObj
   layers:
   - Default
   - TransparentFX
